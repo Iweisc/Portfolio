@@ -6,6 +6,7 @@ import jobit from "../../Assets/Projects/jobit.png"
 import healthai from "../../Assets/Projects/healthai.png"
 import qrcodeapp from "../../Assets/Projects/qrcodeapp.png"
 import todoapp from "../../Assets/Projects/todoapp.png"
+import noteapp from "../../Assets/Projects/notesapp.png"
 
 function Projects() {
   return (
@@ -48,7 +49,7 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={jobit}
+              imgPath={noteapp}
               isBlog={false}
               title="Note App"
               description="Its an app that you can use to take notes. You can upload image do your stuff and it will do the job. I would go as far as to say it is better than 99% of the apps since it stores ur data at ur local machine and its open source"
